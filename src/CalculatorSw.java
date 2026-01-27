@@ -1,14 +1,14 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class CalculatorSw {
 
-    public static void main(String[] args){
+    static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number a : ");
-        int a = sc.nextInt();
+        float a = sc.nextFloat();
         System.out.print("Enter the number b : ");
-        int b = sc.nextInt();
+        float b = sc.nextFloat();
         System.out.print("Choose an operator (+, -, *, /, %) : ");
         char op = sc.next().charAt(0);
 
