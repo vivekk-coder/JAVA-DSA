@@ -32,5 +32,22 @@ public class Loops {
             c++;
         } while (c <= 8);
 
+
+        // Difference b/t while and do while loop
+
+        System.out.println("diffeerence");
+
+        int x = 10;
+        while (x <= 9) {
+            System.out.println(x);
+            x++;
+        }
+
+
+        int y = 12;
+        do {
+            System.out.println(y);
+            y++;
+        } while (y <= 11);
     }
 }
