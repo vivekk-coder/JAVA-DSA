@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Loop {
+public class Loops {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
