@@ -6,10 +6,12 @@ public class TableInUser {
 
         System.out.print("Enter any number for print a table : ");
         int n = sc.nextInt();
+
         for (int i = 1; i <= 10; i++) {
             int table = n * i;
-            System.out.println(table);
+//            System.out.println(table);
+            System.out.println(n + " x " + i + " = " + table);
+
         }
-//        System.out.println("result"+table);
     }
 }
