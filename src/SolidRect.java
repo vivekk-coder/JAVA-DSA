@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Patterns {
+public class SolidRect {
     static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
